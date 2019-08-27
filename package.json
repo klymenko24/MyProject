@@ -1,0 +1,24 @@
+{
+  "name": "protractorTest",
+  "version": "1.0.0",
+  "main": "conf.js",
+  "dependencies": {},
+  "devDependencies": {
+    "protractor": "5.4.2",
+    "selenium-standalone": "^6.16.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/protractor conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klymenko24/"
+  },
+  "bugs": {
+    "url": "https://github.com/klymenko24/"
+  },
+  "homepage": "https://github.com/klymenko24/",
+  "description": ""
+}
