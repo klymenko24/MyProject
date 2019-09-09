@@ -1,9 +1,19 @@
 exports.config = {
-    framework: 'jasmine',
-    seleniumAddress: 'http://localhost:4444/wd/hub',
-    capabilities: {
-        'browserName': 'chrome'
+  framework: 'custom',
+  frameworkPath: require.resolve('protractor-cucumber-framework'),
+  seleniumAddress: 'http://localhost:4444/wd/hub',
+  specs: ['./features/*.feature'],
+  cucumberOpts: {
+    require: ['./step_defenitions/*.js'],
+   // format: ['./features/support/Reporter.js']
+  },
+  capabilities: {
+    browserName: 'chrome',
+    chromeOptions: {
+      args: ['--no-sandbox']      
     },
-    specs: ['spec4.js'],
-    SELENIUM_PROMISE_MANAGER: false
+  },
+  SELENIUM_PROMISE_MANAGER: false,
+  directConnect: false,
+  baseUrl: 'http://www.way2automation.com/angularjs-protractor/banking/#/login',
 };

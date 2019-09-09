@@ -1,0 +1,29 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "Open page and login",
+    "uid" : "deb729142860f12e",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1567774273106,
+      "stop" : 1567774274982,
+      "duration" : 1876
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Create new customer with valid data",
+    "uid" : "b540ffd45c3187b0",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1567774274984,
+      "stop" : 1567774278044,
+      "duration" : 3060
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "packages"
+}
