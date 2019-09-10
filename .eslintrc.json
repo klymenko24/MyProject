@@ -1,0 +1,22 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true,
+            "arrowFunctions": true,
+            "blockBindings": true,
+            "classes": true,
+            "defaultParams": true,
+            "modules": true,
+            "spread": true,
+            "globalReturn": true
+        },
+        "extends": [
+            "airbnb", "prettier"
+        ],
+        "plugins": ["prettier"],
+        "rules": {},
+        "parser": "babel-eslint"
+    }
+}
