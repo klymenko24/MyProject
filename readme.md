@@ -21,6 +21,6 @@ npm run test
 To get report about test results:
 ```
 npm run generate-report
-```
+
 npm run open-report
 ```
