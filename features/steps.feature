@@ -6,14 +6,14 @@ Feature: Login to the system as a Manager and add new customer
 
   Scenario: Creating new customer with valid data
     When I choose Add Customer
-    And Add First Name
-    And Add Last Name
-    And Add Post Code
+    And Add First Name 'Tolya'
+    And Add Last Name 'Potter'
+    And Add Post Code '31071980'
     And Click add customer btn
     Then Check text in alert message
     When Close alert message
 
-  Scenario:Checking data in a table
+  Scenario: Checking data in a table
     When Click customer button
     Then Check user in table
     When Delete user
@@ -25,8 +25,4 @@ Feature: Login to the system as a Manager and add new customer
 
 
 
-# Examples:
-
-# | First Name             | Last Name                  | Post Code                  |
-# | CustomersDataPage.name | CustomersDataPage.lastName | CustomersDataPage.postCode |
 
